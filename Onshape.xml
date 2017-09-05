@@ -63,6 +63,14 @@
             <ActionID>RadialMenu_MenuRM10</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_15</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM11</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Part Studio</ID>
@@ -403,6 +411,43 @@
         </Output>
       </Button>
     </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuSketch03</Name>
+      <ID>MenuRM11</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_VERTICAL</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_HORIZONTAL</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_MIDPOINT</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_EQUAL</ActionID>
+        </Output>
+      </Button>
+    </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
@@ -459,6 +504,31 @@
       <ID>AppCommand_revolve</ID>
       <Name>Revolve</Name>
       <AppCmdID>revolve</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM11</ID>
+      <Name>RadialMenuSketch03</Name>
+      <MenuID>MenuRM11</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_VERTICAL</ID>
+      <Name>Vertical</Name>
+      <AppCmdID>VERTICAL</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_HORIZONTAL</ID>
+      <Name>Horizontal</Name>
+      <AppCmdID>HORIZONTAL</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_MIDPOINT</ID>
+      <Name>Midpoint</Name>
+      <AppCmdID>MIDPOINT</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_EQUAL</ID>
+      <Name>Equal</Name>
+      <AppCmdID>EQUAL</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
