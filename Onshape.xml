@@ -18,15 +18,15 @@
       <Name>SpacePilot PRO</Name>
       <VendorID>46d</VendorID>
       <ProductID>c629</ProductID>
-      <CurrentButtonBank>Default Commands</CurrentButtonBank>
+      <CurrentButtonBank>Sketch</CurrentButtonBank>
     </Device>
     <Device>
       <Name>CadMouse</Name>
       <VendorID>256f</VendorID>
       <ProductID>c650</ProductID>
-      <CurrentButtonBank>Default Commands</CurrentButtonBank>
+      <CurrentButtonBank>Sketch</CurrentButtonBank>
       <ButtonBank>
-        <ID>Sketch</ID>
+        <ID>Assembly</ID>
         <Button>
           <Input>
             <ActionID>HIDButton_5</ActionID>
@@ -43,7 +43,6 @@
             <ActionID>Macro_Onshape_Accept_command</ActionID>
           </Output>
         </Button>
-        <Name>STR_DEFAULT_BUTTONBANK</Name>
         <Button>
           <Input>
             <ActionID>HIDButton_3</ActionID>
@@ -52,6 +51,7 @@
             <ActionID>S</ActionID>
           </Output>
         </Button>
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
       </ButtonBank>
       <ButtonBank>
         <ID>Part Studio</ID>
@@ -82,7 +82,7 @@
         <Name>STR_DEFAULT_BUTTONBANK</Name>
       </ButtonBank>
       <ButtonBank>
-        <ID>Assembly</ID>
+        <ID>Sketch</ID>
         <Button>
           <Input>
             <ActionID>HIDButton_5</ActionID>
@@ -107,7 +107,15 @@
             <ActionID>S</ActionID>
           </Output>
         </Button>
-      <Name>STR_DEFAULT_BUTTONBANK</Name></ButtonBank>
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+      </ButtonBank>
+    </Device>
+    <Device>
+      <Name>Standard 3D Mouse</Name>
+      <VendorID>0</VendorID>
+      <ProductID>0</ProductID>
+      <InheritsFrom>Standard 3D Mouse</InheritsFrom>
+      <AxisFilter>Dominant</AxisFilter>
     </Device>
   </Devices>
   <MacroTable>
@@ -115,6 +123,12 @@
       <ID>ESC</ID>
       <KeyStroke>
         <Key>29</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>ENTRAR</ID>
+      <KeyStroke>
+        <Key>28</Key>
       </KeyStroke>
     </MacroEntry>
     <MacroEntry>
