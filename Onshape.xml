@@ -1,25 +1,24 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<AppCfg Default="false" xmlns="" CfgFormatVersion="1.2" ThisFileVersion="1.4">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><AppCfg Default="false" xmlns="" CfgFormatVersion="1.2" ThisFileVersion="1.4">
   <AppInfo>
     <Signature>
       <Name>STR_ONSHAPE</Name>
       <Transport>S80</Transport>
       <SiOpenAppName>Onshape</SiOpenAppName>
-      <ExecutableName>3DxNLServer.exe</ExecutableName>
-    </Signature>
-    <Options />
+      
+    <ExecutableName>3DxNLServer.exe</ExecutableName></Signature>
+    <Options/>
   </AppInfo>
   <CfgProperties>
     <InheritsFrom>STR_ONSHAPE</InheritsFrom>
-    <Access />
+    <Access/>
   </CfgProperties>
-  <Settings />
+  <Settings/>
   <Devices>
     <Device>
       <Name>SpacePilot PRO</Name>
       <VendorID>46d</VendorID>
       <ProductID>c629</ProductID>
-      <CurrentButtonBank>Sketch</CurrentButtonBank>
+      <CurrentButtonBank>Default Commands</CurrentButtonBank>
       <ButtonBank>
         <ID>Sketch</ID>
         <Button>
@@ -37,6 +36,14 @@
           </Input>
           <Output>
             <ActionID>Macro_Onshape_Normal_to</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_17</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Driver_Toggle_3DxNumPad</ActionID>
           </Output>
         </Button>
       </ButtonBank>
@@ -59,6 +66,14 @@
             <ActionID>Macro_Onshape_Normal_to</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_17</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Driver_Toggle_3DxNumPad</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Assembly</ID>
@@ -79,13 +94,21 @@
             <ActionID>Macro_Onshape_Normal_to</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_17</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Driver_Toggle_3DxNumPad</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
     </Device>
     <Device>
       <Name>CadMouse</Name>
       <VendorID>256f</VendorID>
       <ProductID>c650</ProductID>
-      <CurrentButtonBank>Sketch</CurrentButtonBank>
+      <CurrentButtonBank>Default Commands</CurrentButtonBank>
       <ButtonBank>
         <ID>Assembly</ID>
         <Button>

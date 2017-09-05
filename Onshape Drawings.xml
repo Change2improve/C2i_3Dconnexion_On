@@ -108,6 +108,24 @@
         </Button>
       </ButtonBank>
     </Device>
+    <Device>
+      <Name>SpacePilot PRO</Name>
+      <VendorID>46d</VendorID>
+      <ProductID>c629</ProductID>
+      <InheritsFrom>Standard 3D Mouse</InheritsFrom>
+      <ButtonBank Default="true">
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <ID>Default</ID>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_17</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Driver_Toggle_3DxNumPad</ActionID>
+          </Output>
+        </Button>
+      </ButtonBank>
+    </Device>
   </Devices>
   <Menus>
     <Executable>3DxPieMenus.exe</Executable>
