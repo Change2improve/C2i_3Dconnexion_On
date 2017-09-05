@@ -20,6 +20,41 @@
       <VendorID>46d</VendorID>
       <ProductID>c629</ProductID>
       <CurrentButtonBank>Assembly</CurrentButtonBank>
+      <ButtonBank>
+        <ID>Sketch</ID>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_9</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Macro_Onshape_Normal_to</ActionID>
+          </Output>
+        </Button>
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+      </ButtonBank>
+      <ButtonBank>
+        <ID>Part Studio</ID>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_9</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Macro_Onshape_Normal_to</ActionID>
+          </Output>
+        </Button>
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+      </ButtonBank>
+      <ButtonBank>
+        <ID>Assembly</ID>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_9</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Macro_Onshape_Normal_to</ActionID>
+          </Output>
+        </Button>
+      </ButtonBank>
     </Device>
     <Device>
       <Name>CadMouse</Name>
