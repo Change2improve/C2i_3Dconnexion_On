@@ -95,6 +95,14 @@
             <ActionID>RadialMenu_MenuRM14</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_19</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM15</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Part Studio</ID>
@@ -583,6 +591,43 @@
         </Output>
       </Button>
     </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuSketch07</Name>
+      <ID>MenuRM15</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_SKETCHLPATTERN</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_SKETCHMIRROR</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_SKETCHCPATTERN</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_TRANSFORM</ActionID>
+        </Output>
+      </Button>
+    </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
@@ -739,6 +784,31 @@
       <ID>AppCommand_PARALLEL</ID>
       <Name>Parallel</Name>
       <AppCmdID>PARALLEL</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM15</ID>
+      <Name>RadialMenuSketch07</Name>
+      <MenuID>MenuRM15</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_SKETCHLPATTERN</ID>
+      <Name>Linear pattern</Name>
+      <AppCmdID>SKETCHLPATTERN</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_SKETCHCPATTERN</ID>
+      <Name>Circular pattern</Name>
+      <AppCmdID>SKETCHCPATTERN</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_SKETCHMIRROR</ID>
+      <Name>Mirror</Name>
+      <AppCmdID>SKETCHMIRROR</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_TRANSFORM</ID>
+      <Name>Transform</Name>
+      <AppCmdID>TRANSFORM</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
