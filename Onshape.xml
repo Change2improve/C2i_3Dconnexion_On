@@ -87,6 +87,14 @@
             <ActionID>RadialMenu_MenuRM13</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_20</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM14</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Part Studio</ID>
@@ -538,6 +546,43 @@
         </Output>
       </Button>
     </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuSketch08</Name>
+      <ID>MenuRM14</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_TANGENT</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_PERPENDICULAR</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_CONCENTRIC</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_PARALLEL</ActionID>
+        </Output>
+      </Button>
+    </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
@@ -669,6 +714,31 @@
       <ID>AppCommand_USE</ID>
       <Name>Use</Name>
       <AppCmdID>USE</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM14</ID>
+      <Name>RadialMenuSketch08</Name>
+      <MenuID>MenuRM14</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_TANGENT</ID>
+      <Name>Tangent</Name>
+      <AppCmdID>TANGENT</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_PERPENDICULAR</ID>
+      <Name>Perpendicular</Name>
+      <AppCmdID>PERPENDICULAR</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_CONCENTRIC</ID>
+      <Name>Concentric</Name>
+      <AppCmdID>CONCENTRIC</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_PARALLEL</ID>
+      <Name>Parallel</Name>
+      <AppCmdID>PARALLEL</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
