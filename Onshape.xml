@@ -79,6 +79,14 @@
             <ActionID>RadialMenu_MenuRM12</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_16</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM13</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Part Studio</ID>
@@ -493,6 +501,43 @@
         </Output>
       </Button>
     </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuSketch04</Name>
+      <ID>MenuRM13</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_FILLET</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_OFFSET</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_SLOT</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_USE</ActionID>
+        </Output>
+      </Button>
+    </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
@@ -599,6 +644,31 @@
       <ID>AppCommand_TEXT_RECTANGLE_TWO_CORNERS</ID>
       <Name>Text</Name>
       <AppCmdID>TEXT_RECTANGLE_TWO_CORNERS</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM13</ID>
+      <Name>RadialMenuSketch04</Name>
+      <MenuID>MenuRM13</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_FILLET</ID>
+      <Name>Fillet</Name>
+      <AppCmdID>FILLET</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_OFFSET</ID>
+      <Name>Offset</Name>
+      <AppCmdID>OFFSET</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_SLOT</ID>
+      <Name>Slot</Name>
+      <AppCmdID>SLOT</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_USE</ID>
+      <Name>Use</Name>
+      <AppCmdID>USE</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
