@@ -19,7 +19,7 @@
       <Name>SpacePilot PRO</Name>
       <VendorID>46d</VendorID>
       <ProductID>c629</ProductID>
-      <CurrentButtonBank>Assembly</CurrentButtonBank>
+      <CurrentButtonBank>Sketch</CurrentButtonBank>
       <ButtonBank>
         <ID>Sketch</ID>
         <Button>
@@ -27,10 +27,18 @@
             <ActionID>HIDButton_9</ActionID>
           </Input>
           <Output>
-            <ActionID>Macro_Onshape_Normal_to</ActionID>
+            <ActionID>V3DCMD_VIEW_ROLLCW</ActionID>
           </Output>
         </Button>
         <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_2</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Macro_Onshape_Normal_to</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Part Studio</ID>
@@ -39,16 +47,33 @@
             <ActionID>HIDButton_9</ActionID>
           </Input>
           <Output>
-            <ActionID>Macro_Onshape_Normal_to</ActionID>
+            <ActionID>V3DCMD_VIEW_ROLLCW</ActionID>
           </Output>
         </Button>
         <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_2</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Macro_Onshape_Normal_to</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Assembly</ID>
         <Button>
           <Input>
             <ActionID>HIDButton_9</ActionID>
+          </Input>
+          <Output>
+            <ActionID>V3DCMD_VIEW_ROLLCW</ActionID>
+          </Output>
+        </Button>
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_2</ActionID>
           </Input>
           <Output>
             <ActionID>Macro_Onshape_Normal_to</ActionID>
@@ -60,7 +85,7 @@
       <Name>CadMouse</Name>
       <VendorID>256f</VendorID>
       <ProductID>c650</ProductID>
-      <CurrentButtonBank>Assembly</CurrentButtonBank>
+      <CurrentButtonBank>Sketch</CurrentButtonBank>
       <ButtonBank>
         <ID>Assembly</ID>
         <Button>
