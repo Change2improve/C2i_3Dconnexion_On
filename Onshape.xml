@@ -71,6 +71,14 @@
             <ActionID>RadialMenu_MenuRM11</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_18</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM12</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Part Studio</ID>
@@ -448,6 +456,43 @@
         </Output>
       </Button>
     </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuSketch06</Name>
+      <ID>MenuRM12</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_ARC_START_END_RADIUS</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_POINT</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_SPLINE</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_TEXT_RECTANGLE_TWO_CORNERS</ActionID>
+        </Output>
+      </Button>
+    </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
@@ -529,6 +574,31 @@
       <ID>AppCommand_EQUAL</ID>
       <Name>Equal</Name>
       <AppCmdID>EQUAL</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM12</ID>
+      <Name>RadialMenuSketch06</Name>
+      <MenuID>MenuRM12</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_ARC_START_END_RADIUS</ID>
+      <Name>3 point arc</Name>
+      <AppCmdID>ARC_START_END_RADIUS</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_POINT</ID>
+      <Name>Point</Name>
+      <AppCmdID>POINT</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_SPLINE</ID>
+      <Name>Spline</Name>
+      <AppCmdID>SPLINE</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_TEXT_RECTANGLE_TWO_CORNERS</ID>
+      <Name>Text</Name>
+      <AppCmdID>TEXT_RECTANGLE_TWO_CORNERS</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
