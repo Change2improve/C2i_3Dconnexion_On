@@ -111,6 +111,14 @@
             <ActionID>RadialMenu_MenuRM16</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_22</ActionID>
+          </Input>
+          <Output>
+            <ActionID>AppCommand_DIMENSION</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Part Studio</ID>
@@ -423,7 +431,7 @@
           <ActionID>MenuButton_1</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_DIMENSION</ActionID>
+          <ActionID>AppCommand_COINCIDENT</ActionID>
         </Output>
       </Button>
       <Button>
@@ -879,6 +887,11 @@
       <ID>AppCommand_SPLIT</ID>
       <Name>Split</Name>
       <AppCmdID>SPLIT</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_COINCIDENT</ID>
+      <Name>Coincident</Name>
+      <AppCmdID>COINCIDENT</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
