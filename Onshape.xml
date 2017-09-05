@@ -1,30 +1,31 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><AppCfg Default="false" xmlns="" CfgFormatVersion="1.2" ThisFileVersion="1.4">
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AppCfg Default="false" xmlns="" CfgFormatVersion="1.2" ThisFileVersion="1.4">
   <AppInfo>
     <Signature>
       <Name>STR_ONSHAPE</Name>
       <Transport>S80</Transport>
       <SiOpenAppName>Onshape</SiOpenAppName>
-      
-    <ExecutableName>3DxNLServer.exe</ExecutableName></Signature>
-    <Options/>
+      <ExecutableName>3DxNLServer.exe</ExecutableName>
+    </Signature>
+    <Options />
   </AppInfo>
   <CfgProperties>
     <InheritsFrom>STR_ONSHAPE</InheritsFrom>
-    <Access/>
+    <Access />
   </CfgProperties>
-  <Settings/>
+  <Settings />
   <Devices>
     <Device>
       <Name>SpacePilot PRO</Name>
       <VendorID>46d</VendorID>
       <ProductID>c629</ProductID>
-      <CurrentButtonBank>Sketch</CurrentButtonBank>
+      <CurrentButtonBank>Assembly</CurrentButtonBank>
     </Device>
     <Device>
       <Name>CadMouse</Name>
       <VendorID>256f</VendorID>
       <ProductID>c650</ProductID>
-      <CurrentButtonBank>Sketch</CurrentButtonBank>
+      <CurrentButtonBank>Assembly</CurrentButtonBank>
       <ButtonBank>
         <ID>Assembly</ID>
         <Button>
@@ -52,6 +53,14 @@
           </Output>
         </Button>
         <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_7</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM8</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Part Studio</ID>
@@ -80,6 +89,14 @@
           </Output>
         </Button>
         <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_7</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM8</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Sketch</ID>
@@ -108,6 +125,14 @@
           </Output>
         </Button>
         <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_7</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM8</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
     </Device>
     <Device>
@@ -137,5 +162,79 @@
         <Key>16</Key>
       </KeyStroke>
     </MacroEntry>
+    <MacroEntry>
+      <ID>P</ID>
+      <KeyStroke>
+        <Key>13</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Y</ID>
+      <KeyStroke>
+        <Key>1C</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>K</ID>
+      <KeyStroke>
+        <Key>E</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>MAYUSCULAS+Y</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>1C</Key>
+      </KeyStroke>
+    </MacroEntry>
   </MacroTable>
+  <Menus>
+    <Executable>3DxPieMenus.exe</Executable>
+    <Menu Type="Radial">
+      <Name>CADMouse-RadialMenu</Name>
+      <ID>MenuRM8</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Macro_Onshape_Hide-show_planes</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Y</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>K</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>MAYUSCULAS+Y</ActionID>
+        </Output>
+      </Button>
+    </Menu>
+  </Menus>
+  <ButtonActions>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM8</ID>
+      <Name>CADMouse-RadialMenu</Name>
+      <MenuID>MenuRM8</MenuID>
+    </ButtonAction>
+  </ButtonActions>
 </AppCfg>
