@@ -44,6 +44,15 @@
             <ActionID>Macro_Onshape_Accept_command</ActionID>
           </Output>
         </Button>
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_3</ActionID>
+          </Input>
+          <Output>
+            <ActionID>S</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
     </Device>
   </Devices>
@@ -52,6 +61,12 @@
       <ID>ESC</ID>
       <KeyStroke>
         <Key>29</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>S</ID>
+      <KeyStroke>
+        <Key>16</Key>
       </KeyStroke>
     </MacroEntry>
   </MacroTable>
