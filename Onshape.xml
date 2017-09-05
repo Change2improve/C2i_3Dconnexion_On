@@ -1,31 +1,30 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<AppCfg Default="false" xmlns="" CfgFormatVersion="1.2" ThisFileVersion="1.4">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><AppCfg Default="false" xmlns="" CfgFormatVersion="1.2" ThisFileVersion="1.4">
   <AppInfo>
     <Signature>
       <Name>STR_ONSHAPE</Name>
       <Transport>S80</Transport>
       <SiOpenAppName>Onshape</SiOpenAppName>
-      <ExecutableName>3DxNLServer.exe</ExecutableName>
-    </Signature>
-    <Options />
+      
+    <ExecutableName>3DxNLServer.exe</ExecutableName></Signature>
+    <Options/>
   </AppInfo>
   <CfgProperties>
     <InheritsFrom>STR_ONSHAPE</InheritsFrom>
-    <Access />
+    <Access/>
   </CfgProperties>
-  <Settings />
+  <Settings/>
   <Devices>
     <Device>
       <Name>SpacePilot PRO</Name>
       <VendorID>46d</VendorID>
       <ProductID>c629</ProductID>
-      <CurrentButtonBank>Sketch</CurrentButtonBank>
+      <CurrentButtonBank>Default Commands</CurrentButtonBank>
     </Device>
     <Device>
       <Name>CadMouse</Name>
       <VendorID>256f</VendorID>
       <ProductID>c650</ProductID>
-      <CurrentButtonBank>Sketch</CurrentButtonBank>
+      <CurrentButtonBank>Default Commands</CurrentButtonBank>
       <ButtonBank>
         <ID>Sketch</ID>
         <Button>
@@ -54,6 +53,61 @@
           </Output>
         </Button>
       </ButtonBank>
+      <ButtonBank>
+        <ID>Part Studio</ID>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_5</ActionID>
+          </Input>
+          <Output>
+            <ActionID>ESC</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_6</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Macro_Onshape_Accept_command</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_3</ActionID>
+          </Input>
+          <Output>
+            <ActionID>S</ActionID>
+          </Output>
+        </Button>
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+      </ButtonBank>
+      <ButtonBank>
+        <ID>Assembly</ID>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_5</ActionID>
+          </Input>
+          <Output>
+            <ActionID>ESC</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_6</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Macro_Onshape_Accept_command</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_3</ActionID>
+          </Input>
+          <Output>
+            <ActionID>S</ActionID>
+          </Output>
+        </Button>
+      <Name>STR_DEFAULT_BUTTONBANK</Name></ButtonBank>
     </Device>
   </Devices>
   <MacroTable>
