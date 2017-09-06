@@ -19,7 +19,7 @@
       <Name>SpacePilot PRO</Name>
       <VendorID>46d</VendorID>
       <ProductID>c629</ProductID>
-      <CurrentButtonBank>Part Studio</CurrentButtonBank>
+      <CurrentButtonBank>Assembly</CurrentButtonBank>
       <ButtonBank>
         <ID>Sketch</ID>
         <Button>
@@ -247,13 +247,21 @@
             <ActionID>Driver_Toggle_3DxNumPad</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_13</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM26</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
     </Device>
     <Device>
       <Name>CadMouse</Name>
       <VendorID>256f</VendorID>
       <ProductID>c650</ProductID>
-      <CurrentButtonBank>Part Studio</CurrentButtonBank>
+      <CurrentButtonBank>Assembly</CurrentButtonBank>
       <ButtonBank>
         <ID>Assembly</ID>
         <Button>
@@ -1142,6 +1150,43 @@
         </Output>
       </Button>
     </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuAssembly01</Name>
+      <ID>MenuRM26</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_insertPartOrAssembly</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_TOGGLE_ASSEMBLY_SNAP_MODE</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Macro_Onshape_Mate</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_mateConnector</ActionID>
+        </Output>
+      </Button>
+    </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
@@ -1548,6 +1593,21 @@
       <ID>AppCommand_splitPart</ID>
       <Name>Split</Name>
       <AppCmdID>splitPart</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM26</ID>
+      <Name>RadialMenuAssembly01</Name>
+      <MenuID>MenuRM26</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_insertPartOrAssembly</ID>
+      <Name>Insert</Name>
+      <AppCmdID>insertPartOrAssembly</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_TOGGLE_ASSEMBLY_SNAP_MODE</ID>
+      <Name>Snap mode</Name>
+      <AppCmdID>TOGGLE_ASSEMBLY_SNAP_MODE</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
