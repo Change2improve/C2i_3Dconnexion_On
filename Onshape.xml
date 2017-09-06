@@ -19,7 +19,7 @@
       <Name>SpacePilot PRO</Name>
       <VendorID>46d</VendorID>
       <ProductID>c629</ProductID>
-      <CurrentButtonBank>Assembly</CurrentButtonBank>
+      <CurrentButtonBank>Part Studio</CurrentButtonBank>
       <ButtonBank>
         <ID>Sketch</ID>
         <Button>
@@ -325,7 +325,7 @@
       <Name>CadMouse</Name>
       <VendorID>256f</VendorID>
       <ProductID>c650</ProductID>
-      <CurrentButtonBank>Assembly</CurrentButtonBank>
+      <CurrentButtonBank>Part Studio</CurrentButtonBank>
       <ButtonBank>
         <ID>Assembly</ID>
         <Button>
@@ -394,7 +394,7 @@
             <ActionID>HIDButton_7</ActionID>
           </Input>
           <Output>
-            <ActionID>RadialMenu_MenuRM8</ActionID>
+            <ActionID>Macro_Onshape_Hide-show_planes</ActionID>
           </Output>
         </Button>
       </ButtonBank>
@@ -555,6 +555,15 @@
       <ID>Q</ID>
       <KeyStroke>
         <Key>14</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>MAYUSCULAS+F</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>9</Key>
       </KeyStroke>
     </MacroEntry>
   </MacroTable>
@@ -939,7 +948,7 @@
           <ActionID>MenuButton_1</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_fillet</ActionID>
+          <ActionID>MAYUSCULAS+F</ActionID>
         </Output>
       </Button>
       <Button>
@@ -1669,11 +1678,6 @@
       <ID>RadialMenu_MenuRM18</ID>
       <Name>RadialMenuPartStudio02</Name>
       <MenuID>MenuRM18</MenuID>
-    </ButtonAction>
-    <ButtonAction Type="AppCommand">
-      <ID>AppCommand_fillet</ID>
-      <Name>Fillet</Name>
-      <AppCmdID>fillet</AppCmdID>
     </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_chamfer</ID>
