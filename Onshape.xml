@@ -19,7 +19,7 @@
       <Name>SpacePilot PRO</Name>
       <VendorID>46d</VendorID>
       <ProductID>c629</ProductID>
-      <CurrentButtonBank>Sketch</CurrentButtonBank>
+      <CurrentButtonBank>Part Studio</CurrentButtonBank>
       <ButtonBank>
         <ID>Sketch</ID>
         <Button>
@@ -147,6 +147,14 @@
             <ActionID>Driver_Toggle_3DxNumPad</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_13</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM17</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Assembly</ID>
@@ -181,7 +189,7 @@
       <Name>CadMouse</Name>
       <VendorID>256f</VendorID>
       <ProductID>c650</ProductID>
-      <CurrentButtonBank>Sketch</CurrentButtonBank>
+      <CurrentButtonBank>Part Studio</CurrentButtonBank>
       <ButtonBank>
         <ID>Assembly</ID>
         <Button>
@@ -344,6 +352,58 @@
         </Modifiers>
         <Key>1C</Key>
       </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>sS+N+L</ID>
+      <Sequence>
+        <KeyPress>E1</KeyPress>
+        <KeyPress>16</KeyPress>
+        <KeyRelease>16</KeyRelease>
+        <KeyRelease>E1</KeyRelease>
+        <KeyPress>11</KeyPress>
+        <KeyRelease>11</KeyRelease>
+        <KeyPress>F</KeyPress>
+        <KeyRelease>F</KeyRelease>
+      </Sequence>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>sS+N+R</ID>
+      <Sequence>
+        <KeyPress>E1</KeyPress>
+        <KeyPress>16</KeyPress>
+        <KeyRelease>16</KeyRelease>
+        <KeyRelease>E1</KeyRelease>
+        <KeyPress>11</KeyPress>
+        <KeyRelease>11</KeyRelease>
+        <KeyPress>15</KeyPress>
+        <KeyRelease>15</KeyRelease>
+      </Sequence>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>sS+N+C</ID>
+      <Sequence>
+        <KeyPress>E1</KeyPress>
+        <KeyPress>16</KeyPress>
+        <KeyRelease>16</KeyRelease>
+        <KeyRelease>E1</KeyRelease>
+        <KeyPress>11</KeyPress>
+        <KeyRelease>11</KeyRelease>
+        <KeyPress>6</KeyPress>
+        <KeyRelease>6</KeyRelease>
+      </Sequence>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>sS+N+G</ID>
+      <Sequence>
+        <KeyPress>E1</KeyPress>
+        <KeyPress>16</KeyPress>
+        <KeyRelease>16</KeyRelease>
+        <KeyRelease>E1</KeyRelease>
+        <KeyPress>11</KeyPress>
+        <KeyRelease>11</KeyRelease>
+        <KeyPress>A</KeyPress>
+        <KeyRelease>A</KeyRelease>
+      </Sequence>
     </MacroEntry>
   </MacroTable>
   <Menus>
@@ -681,6 +741,43 @@
         </Output>
       </Button>
     </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuPartStudio01</Name>
+      <ID>MenuRM17</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>sS+N+L</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>sS+N+R</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>sS+N+C</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>sS+N+G</ActionID>
+        </Output>
+      </Button>
+    </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
@@ -892,6 +989,11 @@
       <ID>AppCommand_COINCIDENT</ID>
       <Name>Coincident</Name>
       <AppCmdID>COINCIDENT</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM17</ID>
+      <Name>RadialMenuPartStudio01</Name>
+      <MenuID>MenuRM17</MenuID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
