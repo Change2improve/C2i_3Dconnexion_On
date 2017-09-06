@@ -295,6 +295,30 @@
             <ActionID>RadialMenu_MenuRM31</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_20</ActionID>
+          </Input>
+          <Output>
+            <ActionID>AppCommand_geometryMate_TANGENT</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_21</ActionID>
+          </Input>
+          <Output>
+            <ActionID>AppCommand_assemblyNamedPositions</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_22</ActionID>
+          </Input>
+          <Output>
+            <ActionID>AppCommand_createInContextPartStudio</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
     </Device>
     <Device>
@@ -1950,6 +1974,21 @@
       <ID>AppCommand_mate_BALL</ID>
       <Name>Ball mate</Name>
       <AppCmdID>mate_BALL</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_geometryMate_TANGENT</ID>
+      <Name>Tangent mate</Name>
+      <AppCmdID>geometryMate_TANGENT</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_assemblyNamedPositions</ID>
+      <Name>Named positions</Name>
+      <AppCmdID>assemblyNamedPositions</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_createInContextPartStudio</ID>
+      <Name>Create Part Studio in context</Name>
+      <AppCmdID>createInContextPartStudio</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
