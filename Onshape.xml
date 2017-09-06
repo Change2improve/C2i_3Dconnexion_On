@@ -179,6 +179,14 @@
             <ActionID>RadialMenu_MenuRM20</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_19</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM21</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Assembly</ID>
@@ -917,6 +925,43 @@
         </Output>
       </Button>
     </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuPartStudio07</Name>
+      <ID>MenuRM21</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_linearPattern</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_mirror</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_circularPattern</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_transform</ActionID>
+        </Output>
+      </Button>
+    </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
@@ -1198,6 +1243,31 @@
       <ID>AppCommand_moveFace</ID>
       <Name>Move face</Name>
       <AppCmdID>moveFace</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM21</ID>
+      <Name>RadialMenuPartStudio07</Name>
+      <MenuID>MenuRM21</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_linearPattern</ID>
+      <Name>Linear pattern</Name>
+      <AppCmdID>linearPattern</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_mirror</ID>
+      <Name>Mirror</Name>
+      <AppCmdID>mirror</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_circularPattern</ID>
+      <Name>Circular pattern</Name>
+      <AppCmdID>circularPattern</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_transform</ID>
+      <Name>Transform</Name>
+      <AppCmdID>transform</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
