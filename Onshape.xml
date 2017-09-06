@@ -203,6 +203,22 @@
             <ActionID>RadialMenu_MenuRM23</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_22</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM24</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_20</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM25</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Assembly</ID>
@@ -1052,6 +1068,83 @@
         </Output>
       </Button>
     </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuPartStudio10</Name>
+      <ID>MenuRM24</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_OPEN_ADD_CUSTOM_FEATURE_DIALOG</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+    </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuPartStudio08</Name>
+      <ID>MenuRM25</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_helix</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_deleteFace</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_offsetSurface</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_replaceFace</ActionID>
+        </Output>
+      </Button>
+    </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
@@ -1408,6 +1501,41 @@
       <ID>AppCommand_draft</ID>
       <Name>Draft</Name>
       <AppCmdID>draft</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM24</ID>
+      <Name>RadialMenuPartStudio10</Name>
+      <MenuID>MenuRM24</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_OPEN_ADD_CUSTOM_FEATURE_DIALOG</ID>
+      <Name>Add custom features</Name>
+      <AppCmdID>OPEN_ADD_CUSTOM_FEATURE_DIALOG</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM25</ID>
+      <Name>RadialMenuPartStudio08</Name>
+      <MenuID>MenuRM25</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_helix</ID>
+      <Name>Helix</Name>
+      <AppCmdID>helix</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_deleteFace</ID>
+      <Name>Delete face</Name>
+      <AppCmdID>deleteFace</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_offsetSurface</ID>
+      <Name>Offset surface</Name>
+      <AppCmdID>offsetSurface</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_replaceFace</ID>
+      <Name>Replace face</Name>
+      <AppCmdID>replaceFace</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
