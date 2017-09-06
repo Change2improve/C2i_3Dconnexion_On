@@ -187,6 +187,14 @@
             <ActionID>RadialMenu_MenuRM21</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_15</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM22</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Assembly</ID>
@@ -962,6 +970,43 @@
         </Output>
       </Button>
     </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuPartStudio03</Name>
+      <ID>MenuRM22</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_sweep</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_thicken</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_loft</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_shell</ActionID>
+        </Output>
+      </Button>
+    </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
@@ -1268,6 +1313,31 @@
       <ID>AppCommand_transform</ID>
       <Name>Transform</Name>
       <AppCmdID>transform</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM22</ID>
+      <Name>RadialMenuPartStudio03</Name>
+      <MenuID>MenuRM22</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_sweep</ID>
+      <Name>Sweep</Name>
+      <AppCmdID>sweep</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_loft</ID>
+      <Name>Loft</Name>
+      <AppCmdID>loft</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_thicken</ID>
+      <Name>Thicken</Name>
+      <AppCmdID>thicken</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_shell</ID>
+      <Name>Shell</Name>
+      <AppCmdID>shell</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
