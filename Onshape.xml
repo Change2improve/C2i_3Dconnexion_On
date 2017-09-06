@@ -279,6 +279,14 @@
             <ActionID>RadialMenu_MenuRM29</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_18</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM30</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
     </Device>
     <Device>
@@ -504,6 +512,18 @@
         <KeyPress>A</KeyPress>
         <KeyRelease>A</KeyRelease>
       </Sequence>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>J</ID>
+      <KeyStroke>
+        <Key>D</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Q</ID>
+      <KeyStroke>
+        <Key>14</Key>
+      </KeyStroke>
     </MacroEntry>
   </MacroTable>
   <Menus>
@@ -1322,6 +1342,43 @@
         </Output>
       </Button>
     </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuAssembly06</Name>
+      <ID>MenuRM30</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Macro_Onshape_Flip_alignment</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>J</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Q</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>K</ActionID>
+        </Output>
+      </Button>
+    </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
@@ -1818,6 +1875,11 @@
       <ID>AppCommand_mateRelation_SCREW</ID>
       <Name>Screw relation</Name>
       <AppCmdID>mateRelation_SCREW</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM30</ID>
+      <Name>RadialMenuAssembly06</Name>
+      <MenuID>MenuRM30</MenuID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
