@@ -1,18 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><AppCfg Default="false" xmlns="" CfgFormatVersion="1.2" ThisFileVersion="1.4">
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AppCfg Default="false" xmlns="" CfgFormatVersion="1.2" ThisFileVersion="1.4">
   <AppInfo>
     <Signature>
       <Name>STR_ONSHAPE</Name>
       <Transport>S80</Transport>
       <SiOpenAppName>Onshape</SiOpenAppName>
-      
-    <ExecutableName>3DxNLServer.exe</ExecutableName></Signature>
-    <Options/>
+      <ExecutableName>3DxNLServer.exe</ExecutableName>
+    </Signature>
+    <Options />
   </AppInfo>
   <CfgProperties>
     <InheritsFrom>STR_ONSHAPE</InheritsFrom>
-    <Access/>
+    <Access />
   </CfgProperties>
-  <Settings/>
+  <Settings />
   <Devices>
     <Device>
       <Name>SpacePilot PRO</Name>
@@ -152,6 +153,14 @@
           </Input>
           <Output>
             <ActionID>RadialMenu_MenuRM17</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_14</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM18</ActionID>
           </Output>
         </Button>
       </ButtonBank>
@@ -781,6 +790,43 @@
         </Output>
       </Button>
     </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuPartStudio02</Name>
+      <ID>MenuRM18</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_fillet</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_extrude</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_chamfer</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_revolve</ActionID>
+        </Output>
+      </Button>
+    </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
@@ -997,6 +1043,21 @@
       <ID>RadialMenu_MenuRM17</ID>
       <Name>RadialMenuPartStudio01</Name>
       <MenuID>MenuRM17</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM18</ID>
+      <Name>RadialMenuPartStudio02</Name>
+      <MenuID>MenuRM18</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_fillet</ID>
+      <Name>Fillet</Name>
+      <AppCmdID>fillet</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_chamfer</ID>
+      <Name>Chamfer</Name>
+      <AppCmdID>chamfer</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
