@@ -263,6 +263,14 @@
             <ActionID>RadialMenu_MenuRM27</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_15</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM28</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
     </Device>
     <Device>
@@ -1232,6 +1240,43 @@
         </Output>
       </Button>
     </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuAssembly03</Name>
+      <ID>MenuRM28</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_assemblyLinearPattern</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_mateGroup_undefined</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_assemblyCircularPattern</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_replicate</ActionID>
+        </Output>
+      </Button>
+    </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
@@ -1678,6 +1723,31 @@
       <ID>AppCommand_mate_CYLINDRICAL</ID>
       <Name>Cylindrical mate</Name>
       <AppCmdID>mate_CYLINDRICAL</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM28</ID>
+      <Name>RadialMenuAssembly03</Name>
+      <MenuID>MenuRM28</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_assemblyLinearPattern</ID>
+      <Name>Assembly linear pattern</Name>
+      <AppCmdID>assemblyLinearPattern</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_assemblyCircularPattern</ID>
+      <Name>Assembly circular pattern</Name>
+      <AppCmdID>assemblyCircularPattern</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_mateGroup_undefined</ID>
+      <Name>Group</Name>
+      <AppCmdID>mateGroup_undefined</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_replicate</ID>
+      <Name>Replicate</Name>
+      <AppCmdID>replicate</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
