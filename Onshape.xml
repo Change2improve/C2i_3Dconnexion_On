@@ -195,6 +195,14 @@
             <ActionID>RadialMenu_MenuRM22</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_18</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM23</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Assembly</ID>
@@ -1007,6 +1015,43 @@
         </Output>
       </Button>
     </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuPartStudio06</Name>
+      <ID>MenuRM23</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_cPlane</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_booleanBodies</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_mateConnector</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_draft</ActionID>
+        </Output>
+      </Button>
+    </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
@@ -1338,6 +1383,31 @@
       <ID>AppCommand_shell</ID>
       <Name>Shell</Name>
       <AppCmdID>shell</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM23</ID>
+      <Name>RadialMenuPartStudio06</Name>
+      <MenuID>MenuRM23</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_cPlane</ID>
+      <Name>Plane</Name>
+      <AppCmdID>cPlane</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_booleanBodies</ID>
+      <Name>Boolean</Name>
+      <AppCmdID>booleanBodies</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_mateConnector</ID>
+      <Name>Mate connector</Name>
+      <AppCmdID>mateConnector</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_draft</ID>
+      <Name>Draft</Name>
+      <AppCmdID>draft</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
