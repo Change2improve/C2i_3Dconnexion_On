@@ -1,19 +1,18 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<AppCfg Default="false" xmlns="" CfgFormatVersion="1.2" ThisFileVersion="1.4">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><AppCfg Default="false" xmlns="" CfgFormatVersion="1.2" ThisFileVersion="1.4">
   <AppInfo>
     <Signature>
       <Name>STR_ONSHAPE</Name>
       <Transport>S80</Transport>
       <SiOpenAppName>Onshape</SiOpenAppName>
-      <ExecutableName>3DxNLServer.exe</ExecutableName>
-    </Signature>
-    <Options />
+      
+    <ExecutableName>3DxNLServer.exe</ExecutableName></Signature>
+    <Options/>
   </AppInfo>
   <CfgProperties>
     <InheritsFrom>STR_ONSHAPE</InheritsFrom>
-    <Access />
+    <Access/>
   </CfgProperties>
-  <Settings />
+  <Settings/>
   <Devices>
     <Device>
       <Name>SpacePilot PRO</Name>
@@ -360,6 +359,7 @@
         <KeyPress>16</KeyPress>
         <KeyRelease>16</KeyRelease>
         <KeyRelease>E1</KeyRelease>
+        <Pause>500</Pause>
         <KeyPress>11</KeyPress>
         <KeyRelease>11</KeyRelease>
         <KeyPress>F</KeyPress>
@@ -373,6 +373,7 @@
         <KeyPress>16</KeyPress>
         <KeyRelease>16</KeyRelease>
         <KeyRelease>E1</KeyRelease>
+        <Pause>500</Pause>
         <KeyPress>11</KeyPress>
         <KeyRelease>11</KeyRelease>
         <KeyPress>15</KeyPress>
@@ -386,6 +387,7 @@
         <KeyPress>16</KeyPress>
         <KeyRelease>16</KeyRelease>
         <KeyRelease>E1</KeyRelease>
+        <Pause>500</Pause>
         <KeyPress>11</KeyPress>
         <KeyRelease>11</KeyRelease>
         <KeyPress>6</KeyPress>
@@ -399,6 +401,7 @@
         <KeyPress>16</KeyPress>
         <KeyRelease>16</KeyRelease>
         <KeyRelease>E1</KeyRelease>
+        <Pause>500</Pause>
         <KeyPress>11</KeyPress>
         <KeyRelease>11</KeyRelease>
         <KeyPress>A</KeyPress>
