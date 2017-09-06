@@ -163,6 +163,14 @@
             <ActionID>RadialMenu_MenuRM18</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_21</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM19</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Assembly</ID>
@@ -827,6 +835,43 @@
         </Output>
       </Button>
     </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuPartStudio09</Name>
+      <ID>MenuRM19</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_sheetMetalCorner</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_sheetMetalBendRelief</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_sheetMetalEnd</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_sheetMetalMakeJoint</ActionID>
+        </Output>
+      </Button>
+    </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
@@ -1058,6 +1103,31 @@
       <ID>AppCommand_chamfer</ID>
       <Name>Chamfer</Name>
       <AppCmdID>chamfer</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM19</ID>
+      <Name>RadialMenuPartStudio09</Name>
+      <MenuID>MenuRM19</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_sheetMetalCorner</ID>
+      <Name>Corner</Name>
+      <AppCmdID>sheetMetalCorner</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_sheetMetalBendRelief</ID>
+      <Name>Bend relief</Name>
+      <AppCmdID>sheetMetalBendRelief</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_sheetMetalEnd</ID>
+      <Name>Finish sheet metal model</Name>
+      <AppCmdID>sheetMetalEnd</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_sheetMetalMakeJoint</ID>
+      <Name>Make joint</Name>
+      <AppCmdID>sheetMetalMakeJoint</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
