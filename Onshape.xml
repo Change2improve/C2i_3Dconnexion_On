@@ -171,6 +171,14 @@
             <ActionID>RadialMenu_MenuRM19</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_16</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM20</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Assembly</ID>
@@ -872,6 +880,43 @@
         </Output>
       </Button>
     </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuPartStudio04</Name>
+      <ID>MenuRM20</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_sheetMetalStart</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_hole</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_sheetMetalFlange</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_moveFace</ActionID>
+        </Output>
+      </Button>
+    </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
@@ -1128,6 +1173,31 @@
       <ID>AppCommand_sheetMetalMakeJoint</ID>
       <Name>Make joint</Name>
       <AppCmdID>sheetMetalMakeJoint</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM20</ID>
+      <Name>RadialMenuPartStudio04</Name>
+      <MenuID>MenuRM20</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_sheetMetalStart</ID>
+      <Name>Sheet metal model</Name>
+      <AppCmdID>sheetMetalStart</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_hole</ID>
+      <Name>Hole</Name>
+      <AppCmdID>hole</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_sheetMetalFlange</ID>
+      <Name>Flange</Name>
+      <AppCmdID>sheetMetalFlange</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_moveFace</ID>
+      <Name>Move face</Name>
+      <AppCmdID>moveFace</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
