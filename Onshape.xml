@@ -1077,7 +1077,7 @@
           <ActionID>MenuButton_1</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_OPEN_ADD_CUSTOM_FEATURE_DIALOG</ActionID>
+          <ActionID>AppCommand_fill</ActionID>
         </Output>
       </Button>
       <Button>
@@ -1085,8 +1085,7 @@
           <ActionID>MenuButton_2</ActionID>
         </Input>
         <Output>
-          <ActionID>
-          </ActionID>
+          <ActionID>AppCommand_rib</ActionID>
         </Output>
       </Button>
       <Button>
@@ -1094,8 +1093,7 @@
           <ActionID>MenuButton_3</ActionID>
         </Input>
         <Output>
-          <ActionID>
-          </ActionID>
+          <ActionID>AppCommand_enclose</ActionID>
         </Output>
       </Button>
       <Button>
@@ -1103,8 +1101,7 @@
           <ActionID>MenuButton_4</ActionID>
         </Input>
         <Output>
-          <ActionID>
-          </ActionID>
+          <ActionID>AppCommand_splitPart</ActionID>
         </Output>
       </Button>
     </Menu>
@@ -1507,11 +1504,6 @@
       <Name>RadialMenuPartStudio10</Name>
       <MenuID>MenuRM24</MenuID>
     </ButtonAction>
-    <ButtonAction Type="AppCommand">
-      <ID>AppCommand_OPEN_ADD_CUSTOM_FEATURE_DIALOG</ID>
-      <Name>Add custom features</Name>
-      <AppCmdID>OPEN_ADD_CUSTOM_FEATURE_DIALOG</AppCmdID>
-    </ButtonAction>
     <ButtonAction Type="Menu">
       <ID>RadialMenu_MenuRM25</ID>
       <Name>RadialMenuPartStudio08</Name>
@@ -1536,6 +1528,26 @@
       <ID>AppCommand_replaceFace</ID>
       <Name>Replace face</Name>
       <AppCmdID>replaceFace</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_fill</ID>
+      <Name>Fill</Name>
+      <AppCmdID>fill</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_rib</ID>
+      <Name>Rib</Name>
+      <AppCmdID>rib</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_enclose</ID>
+      <Name>Enclose</Name>
+      <AppCmdID>enclose</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_splitPart</ID>
+      <Name>Split</Name>
+      <AppCmdID>splitPart</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
