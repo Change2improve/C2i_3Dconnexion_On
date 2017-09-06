@@ -255,6 +255,14 @@
             <ActionID>RadialMenu_MenuRM26</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_14</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM27</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
     </Device>
     <Device>
@@ -1187,6 +1195,43 @@
         </Output>
       </Button>
     </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuAssembly02</Name>
+      <ID>MenuRM27</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_mate_FASTENED</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_mate_SLIDER</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_mate_REVOLUTE</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_mate_CYLINDRICAL</ActionID>
+        </Output>
+      </Button>
+    </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
@@ -1608,6 +1653,31 @@
       <ID>AppCommand_TOGGLE_ASSEMBLY_SNAP_MODE</ID>
       <Name>Snap mode</Name>
       <AppCmdID>TOGGLE_ASSEMBLY_SNAP_MODE</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM27</ID>
+      <Name>RadialMenuAssembly02</Name>
+      <MenuID>MenuRM27</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_mate_FASTENED</ID>
+      <Name>Fastened mate</Name>
+      <AppCmdID>mate_FASTENED</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_mate_SLIDER</ID>
+      <Name>Slider mate</Name>
+      <AppCmdID>mate_SLIDER</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_mate_REVOLUTE</ID>
+      <Name>Revolute mate</Name>
+      <AppCmdID>mate_REVOLUTE</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_mate_CYLINDRICAL</ID>
+      <Name>Cylindrical mate</Name>
+      <AppCmdID>mate_CYLINDRICAL</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
