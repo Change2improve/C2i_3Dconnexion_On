@@ -287,6 +287,14 @@
             <ActionID>RadialMenu_MenuRM30</ActionID>
           </Output>
         </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_19</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM31</ActionID>
+          </Output>
+        </Button>
       </ButtonBank>
     </Device>
     <Device>
@@ -1379,6 +1387,43 @@
         </Output>
       </Button>
     </Menu>
+    <Menu Type="Radial">
+      <Name>RadialMenuAssembly07</Name>
+      <ID>MenuRM31</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_mate_PLANAR</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_mate_PIN_SLOT</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_mate_PARALLEL</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_mate_BALL</ActionID>
+        </Output>
+      </Button>
+    </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
@@ -1880,6 +1925,31 @@
       <ID>RadialMenu_MenuRM30</ID>
       <Name>RadialMenuAssembly06</Name>
       <MenuID>MenuRM30</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM31</ID>
+      <Name>RadialMenuAssembly07</Name>
+      <MenuID>MenuRM31</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_mate_PLANAR</ID>
+      <Name>Planar mate</Name>
+      <AppCmdID>mate_PLANAR</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_mate_PARALLEL</ID>
+      <Name>Parallel mate</Name>
+      <AppCmdID>mate_PARALLEL</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_mate_PIN_SLOT</ID>
+      <Name>Pin slot mate</Name>
+      <AppCmdID>mate_PIN_SLOT</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_mate_BALL</ID>
+      <Name>Ball mate</Name>
+      <AppCmdID>mate_BALL</AppCmdID>
     </ButtonAction>
   </ButtonActions>
 </AppCfg>
