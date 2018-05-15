@@ -21,13 +21,11 @@ Also you can import the configuration file "Onshape & Odoo.3dxz" trought the pro
 ## Radial Menus
 The radial menus can be set with 4 or 8 sections.
 
-### Radial Menu x8
+### Radial menu with 4 sections
 ![RadialMenuA](RadialMenuA.png)
-Radial menu with 8 sections.
 
-### Radial Menu x4
+### Radial menu with 8 sections
 ![RadialMenuB](RadialMenuB.png)
-Radial menu with 4 sections.
 
 ## CADMouse buttons
 ### Sketch
