@@ -1,4 +1,4 @@
-# 3Dconnexion-Onshape
+# 3Dconnexion-Onshape & Odoo
 Configuration files for the 3Dconnexion CADMouse wireless and SpaceMouse Wireless.
 
 ## Configuring 3Dconnexion CADMouse wireless and SpaceMouse Wireless
@@ -29,7 +29,7 @@ The radial menus can be set with 4 or 8 sections.
 
 ## CADMouse buttons
 ### Sketch
-![Odoo](Odoo.png)
+![Sketch1](Sketch1.png)
 
 Add a description here.
 
@@ -55,3 +55,7 @@ Add a description here.
 ### Assemblies
 
 ### Drawings
+
+## Odoo (Google Chrome)
+
+![Odoo](Odoo.png)
