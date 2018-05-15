@@ -18,6 +18,17 @@ Also you can import the configuration file "Onshape & Odoo.3dxz" trought the pro
 1. Press the link "More >" and select "Import settings"
 2. Select the "Onshape & Odoo.3dxz" file.
 
+## Radial Menus
+The radial menus can be set with 4 or 8 sections.
+
+### Radial Menu x8
+![RadialMenu8](RadialMenu8.png)
+Radial menu with 8 sections.
+
+### Radial Menu x4
+![RadialMenu4](RadialMenu4.png)
+Radial menu with 4 sections.
+
 ## CADMouse buttons
 ### Sketch
 ![Odoo](Odoo.png)
