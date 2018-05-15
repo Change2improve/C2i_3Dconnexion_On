@@ -33,7 +33,7 @@ The radial menus can be set with 4 or 8 sections.
 
 Add a description here.
 
-![Sketch 2](Sketch 2.png)
+![Sketch2](Sketch 2.png)
 
 Add a description here.
 
