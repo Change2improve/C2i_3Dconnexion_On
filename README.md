@@ -28,10 +28,17 @@ The radial menus can be set with 4 or 8 sections.
 ![RadialMenuB](RadialMenuB.png)
 
 ## CADMouse buttons
-### Sketch
+### Sketch 1
 ![Sketch1](Sketch1.png)
 
-Add a description here.
+1. Line
+2. Center point rectangle
+3. Corner rectangle
+4. Center point circle
+5. 3 point arc
+6. Tangent arc
+7. Point
+8. Construction
 
 ![Sketch2](Sketch2.png)
 
