@@ -20,7 +20,7 @@ Also you can import the configuration file "Onshape & Odoo.3dxz" trought the pro
 
 ## CADMouse buttons
 ### Sketch
-![Sketch 1](Sketch 1.png)
+![Odoo](Odoo.png)
 
 Add a description here.
 
