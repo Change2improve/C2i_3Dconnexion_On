@@ -1,4 +1,4 @@
-# 3Dconnexion-Onshape & Odoo
+# 3Dconnexion with Onshape & Odoo
 Configuration files for the 3Dconnexion CADMouse wireless and SpaceMouse Wireless.
 
 ## Configuring 3Dconnexion CADMouse wireless and SpaceMouse Wireless
