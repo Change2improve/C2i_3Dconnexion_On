@@ -68,10 +68,10 @@ The radial menus can be set with 4 or 8 sections.
 ### Part Studio 1
 ![PartStudio1](PartStudio1.png)
 
-1. Sketch + Normal view + Line
-2. Sketch + Normal view + Center point circle
-3. Sketch + Normal view + Center point rectangle
-4. Sketch + Normal view + Corner rectangle
+1. New Sketch + Normal view + Line
+2. New Sketch + Normal view + Center point circle
+3. New Sketch + Normal view + Center point rectangle
+4. New Sketch + Normal view + Corner rectangle
 5. Extrude
 6. Revolve
 7. Fillet
