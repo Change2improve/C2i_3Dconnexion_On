@@ -1,10 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <AppCfg ThisFileVersion="1.2" CfgFormatVersion="1.2" xmlns="" Default="false">
   <AppInfo>
     <Signature>
       <Name>Onshape Drawings</Name>
-      <ExecutableName>3dxnlserver.exe</ExecutableName>
-      <Transport>S80</Transport>
       <SiOpenAppName>Onshape Drawings</SiOpenAppName>
     </Signature>
     <Options>
@@ -13,6 +11,7 @@
   </AppInfo>
   <CfgProperties>
     <InheritsFrom>STR_3DXNLSERVER</InheritsFrom>
+    <Access />
   </CfgProperties>
   <Settings />
   <MacroTable>
@@ -26,12 +25,6 @@
       <ID>ENTRAR</ID>
       <KeyStroke>
         <Key>28</Key>
-      </KeyStroke>
-    </MacroEntry>
-    <MacroEntry>
-      <ID>D</ID>
-      <KeyStroke>
-        <Key>7</Key>
       </KeyStroke>
     </MacroEntry>
     <MacroEntry>
@@ -62,6 +55,18 @@
       <ID>SUPR</ID>
       <KeyStroke>
         <Key>4C</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Note</ID>
+      <KeyStroke>
+        <Key>11</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Dimension</ID>
+      <KeyStroke>
+        <Key>7</Key>
       </KeyStroke>
     </MacroEntry>
   </MacroTable>
@@ -95,15 +100,7 @@
             <ActionID>HIDButton_3</ActionID>
           </Input>
           <Output>
-            <ActionID>D</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_7</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM3</ActionID>
+            <ActionID>Dimension</ActionID>
           </Output>
         </Button>
       </ButtonBank>
@@ -126,19 +123,88 @@
         </Button>
       </ButtonBank>
     </Device>
+    <Device>
+      <Name>CadMouse Wireless</Name>
+      <VendorID>256f</VendorID>
+      <ProductID>c651</ProductID>
+      <InheritsFrom>Standard 2D Mouse</InheritsFrom>
+      <ButtonBank Default="true">
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <ID>Default</ID>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_3</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_9b15d15a-abef-473f-84e2-bbdc95741e5f</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_7</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_9b15d15a-abef-473f-84e2-bbdc95741e5f</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_5</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_9b15d15a-abef-473f-84e2-bbdc95741e5f</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_6</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Driver_Toggle_3DxNumPad</ActionID>
+          </Output>
+        </Button>
+      </ButtonBank>
+    </Device>
+    <Device>
+      <Name>SpaceMouse Wireless</Name>
+      <VendorID>256f</VendorID>
+      <ProductID>c62e</ProductID>
+      <InheritsFrom>Standard 3D Mouse</InheritsFrom>
+      <ButtonBank Default="true">
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <ID>Default</ID>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_1</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Driver_Toggle_3DxNumPad</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_2</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_9b15d15a-abef-473f-84e2-bbdc95741e5f</ActionID>
+          </Output>
+        </Button>
+      </ButtonBank>
+    </Device>
   </Devices>
   <Menus>
     <Executable>3DxPieMenus.exe</Executable>
     <Menu Type="Radial">
-      <Name>DrawingsRadialMenu</Name>
-      <ID>MenuRM3</ID>
+      <Name>Drawings 1</Name>
+      <ID>MenuRM_9b15d15a-abef-473f-84e2-bbdc95741e5f</ID>
       <GesturesEnabled>true</GesturesEnabled>
+      <Style>FourButton</Style>
       <Button>
         <Input>
           <ActionID>MenuButton_1</ActionID>
         </Input>
         <Output>
-          <ActionID>CTRL+Q</ActionID>
+          <ActionID>Dimension</ActionID>
         </Output>
       </Button>
       <Button>
@@ -146,7 +212,7 @@
           <ActionID>MenuButton_2</ActionID>
         </Input>
         <Output>
-          <ActionID>BARRA ESPACIADORA</ActionID>
+          <ActionID>Macro_Redo</ActionID>
         </Output>
       </Button>
       <Button>
@@ -154,7 +220,7 @@
           <ActionID>MenuButton_3</ActionID>
         </Input>
         <Output>
-          <ActionID>MAYUSCULAS+Q</ActionID>
+          <ActionID>Note</ActionID>
         </Output>
       </Button>
       <Button>
@@ -162,16 +228,57 @@
           <ActionID>MenuButton_4</ActionID>
         </Input>
         <Output>
-          <ActionID>SUPR</ActionID>
+          <ActionID>Macro_Undo</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Macro_Cut</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Note</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Macro_Paste</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Macro_Undo</ActionID>
         </Output>
       </Button>
     </Menu>
   </Menus>
   <ButtonActions>
     <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM3</ID>
-      <Name>DrawingsRadialMenu</Name>
-      <MenuID>MenuRM3</MenuID>
+      <ID>RadialMenu_MenuRM_9b15d15a-abef-473f-84e2-bbdc95741e5f</ID>
+      <Name>Drawings 1</Name>
+      <MenuID>MenuRM_9b15d15a-abef-473f-84e2-bbdc95741e5f</MenuID>
     </ButtonAction>
   </ButtonActions>
+  <AuthorInfo>
+    <DriverVersion>17.5.6.14829</DriverVersion>
+    <LastChange>
+      <Tool>3DxSmartUI.exe</Tool>
+      <Version>1.2.18075.14680</Version>
+      <Date>5/15/2018 10:13:07 PM UTC</Date>
+      <User>emagdalenaC2i</User>
+    </LastChange>
+  </AuthorInfo>
 </AppCfg>

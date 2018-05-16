@@ -1,19 +1,17 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<AppCfg Default="false" xmlns="" CfgFormatVersion="1.2" ThisFileVersion="1.4">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><AppCfg Default="false" xmlns="" CfgFormatVersion="1.2" ThisFileVersion="1.6">
   <AppInfo>
     <Signature>
       <Name>STR_ONSHAPE</Name>
-      <Transport>S80</Transport>
-      <SiOpenAppName>Onshape</SiOpenAppName>
-      <ExecutableName>3DxNLServer.exe</ExecutableName>
     </Signature>
-    <Options />
+    <Options/>
   </AppInfo>
   <CfgProperties>
     <InheritsFrom>STR_ONSHAPE</InheritsFrom>
-    <Access />
+    <Access/>
   </CfgProperties>
-  <Settings />
+  <Settings>
+    <OverallScale>1.42</OverallScale>
+  </Settings>
   <Devices>
     <Device>
       <Name>SpacePilot PRO</Name>
@@ -45,70 +43,6 @@
           </Input>
           <Output>
             <ActionID>Driver_Toggle_3DxNumPad</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_13</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM9</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_14</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM10</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_15</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM11</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_18</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM12</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_16</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM13</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_20</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM14</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_19</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM15</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_21</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM16</ActionID>
           </Output>
         </Button>
         <Button>
@@ -147,78 +81,6 @@
             <ActionID>Driver_Toggle_3DxNumPad</ActionID>
           </Output>
         </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_13</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM17</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_14</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM18</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_21</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM19</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_16</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM20</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_19</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM21</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_15</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM22</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_18</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM23</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_22</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM24</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_20</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM25</ActionID>
-          </Output>
-        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Assembly</ID>
@@ -245,54 +107,6 @@
           </Input>
           <Output>
             <ActionID>Driver_Toggle_3DxNumPad</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_13</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM26</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_14</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM27</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_15</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM28</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_16</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM29</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_18</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM30</ActionID>
-          </Output>
-        </Button>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_19</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM31</ActionID>
           </Output>
         </Button>
         <Button>
@@ -353,14 +167,6 @@
           </Output>
         </Button>
         <Name>STR_DEFAULT_BUTTONBANK</Name>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_7</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM8</ActionID>
-          </Output>
-        </Button>
       </ButtonBank>
       <ButtonBank>
         <ID>Part Studio</ID>
@@ -425,14 +231,6 @@
           </Output>
         </Button>
         <Name>STR_DEFAULT_BUTTONBANK</Name>
-        <Button>
-          <Input>
-            <ActionID>HIDButton_7</ActionID>
-          </Input>
-          <Output>
-            <ActionID>RadialMenu_MenuRM8</ActionID>
-          </Output>
-        </Button>
       </ButtonBank>
     </Device>
     <Device>
@@ -440,7 +238,275 @@
       <VendorID>0</VendorID>
       <ProductID>0</ProductID>
       <InheritsFrom>Standard 3D Mouse</InheritsFrom>
-      <AxisFilter>Dominant</AxisFilter>
+      <AxisFilter>None</AxisFilter>
+      <CurrentButtonBank>Default Commands</CurrentButtonBank>
+      <AxisBank>
+        <Name>Default</Name>
+        <ID>Default</ID>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_X</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_X</ActionID>
+            <Reversed>false</Reversed>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Y</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_Y</ActionID>
+            <Reversed>false</Reversed>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Z</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_Z</ActionID>
+            <Reversed>false</Reversed>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Rx</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_Rx</ActionID>
+            <Reversed>false</Reversed>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Ry</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_Ry</ActionID>
+            <Reversed>false</Reversed>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Rz</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_Rz</ActionID>
+            <Reversed>false</Reversed>
+          </Output>
+        </Axis>
+      </AxisBank>
+    </Device>
+    <Device>
+      <Name>SpaceMouse Enterprise</Name>
+      <VendorID>256f</VendorID>
+      <ProductID>c633</ProductID>
+      <CurrentButtonBank>Default Commands</CurrentButtonBank>
+    </Device>
+    <Device>
+      <Name>SpaceMouse Wireless</Name>
+      <VendorID>256f</VendorID>
+      <ProductID>c62e</ProductID>
+      <CurrentButtonBank>Default Commands</CurrentButtonBank>
+      <ButtonBank>
+        <ID>Sketch</ID>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_2</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_1ac79fc2-b324-42b7-90c2-38ba64adecc8</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_1</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Driver_Toggle_3DxNumPad</ActionID>
+          </Output>
+        </Button>
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+      </ButtonBank>
+      <ButtonBank>
+        <ID>Part Studio</ID>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_1</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Driver_Toggle_3DxNumPad</ActionID>
+          </Output>
+        </Button>
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_2</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_aab4407a-a780-41d6-8871-1502a542e8ab</ActionID>
+          </Output>
+        </Button>
+      </ButtonBank>
+      <ButtonBank>
+        <ID>Assembly</ID>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_1</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Driver_Toggle_3DxNumPad</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_2</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_d9cb04ee-cca3-4f4c-8cb2-8309e3d8151a</ActionID>
+          </Output>
+        </Button>
+      <Name>STR_DEFAULT_BUTTONBANK</Name></ButtonBank>
+    </Device>
+    <Device>
+      <Name>CadMouse Wireless</Name>
+      <VendorID>256f</VendorID>
+      <ProductID>c651</ProductID>
+      <CurrentButtonBank>Default Commands</CurrentButtonBank>
+      <ButtonBank>
+        <ID>Sketch</ID>
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_6</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Driver_Toggle_3DxNumPad</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_3</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_37b02048-9771-4f8a-bb0b-3110922b85df</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_7</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_2e0e8a00-c800-44b4-b617-ae064266e1c1</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_5</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_1ac79fc2-b324-42b7-90c2-38ba64adecc8</ActionID>
+          </Output>
+        </Button>
+      </ButtonBank>
+      <ButtonBank>
+        <ID>Part Studio</ID>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_5</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_aab4407a-a780-41d6-8871-1502a542e8ab</ActionID>
+          </Output>
+        </Button>
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_3</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_e71a3f14-ad95-447d-98aa-8eeaba0be489</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_7</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_afd55f81-9e9e-447b-ae60-c72ad258d4a3</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_6</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Driver_Toggle_3DxNumPad</ActionID>
+          </Output>
+        </Button>
+      </ButtonBank>
+      <ButtonBank>
+        <ID>Assembly</ID>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_3</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_a81441f6-4ed4-4137-ae35-d28bfdafad20</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_7</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_4019d2e3-88b7-4aea-93f3-d15118921e8c</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_5</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_d9cb04ee-cca3-4f4c-8cb2-8309e3d8151a</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_6</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Driver_Toggle_3DxNumPad</ActionID>
+          </Output>
+        </Button>
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+      </ButtonBank>
+    </Device>
+    <Device>
+      <Name>Universal Receiver</Name>
+      <VendorID>256f</VendorID>
+      <ProductID>c652</ProductID>
+      <CurrentButtonBank>Default Commands</CurrentButtonBank>
     </Device>
   </Devices>
   <MacroTable>
@@ -570,15 +636,16 @@
   <Menus>
     <Executable>3DxPieMenus.exe</Executable>
     <Menu Type="Radial">
-      <Name>CADMouse-RadialMenu</Name>
-      <ID>MenuRM8</ID>
+      <Name>Sketch Constraints</Name>
+      <ID>MenuRM_2e0e8a00-c800-44b4-b617-ae064266e1c1</ID>
       <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
       <Button>
         <Input>
           <ActionID>MenuButton_1</ActionID>
         </Input>
         <Output>
-          <ActionID>Macro_Onshape_Hide-show_planes</ActionID>
+          <ActionID>AppCommand_COINCIDENT</ActionID>
         </Output>
       </Button>
       <Button>
@@ -586,7 +653,7 @@
           <ActionID>MenuButton_2</ActionID>
         </Input>
         <Output>
-          <ActionID>Y</ActionID>
+          <ActionID>AppCommand_CONCENTRIC</ActionID>
         </Output>
       </Button>
       <Button>
@@ -594,7 +661,7 @@
           <ActionID>MenuButton_3</ActionID>
         </Input>
         <Output>
-          <ActionID>K</ActionID>
+          <ActionID>AppCommand_HORIZONTAL</ActionID>
         </Output>
       </Button>
       <Button>
@@ -602,14 +669,47 @@
           <ActionID>MenuButton_4</ActionID>
         </Input>
         <Output>
-          <ActionID>MAYUSCULAS+Y</ActionID>
+          <ActionID>AppCommand_EQUAL</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_VERTICAL</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_PARALLEL</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_PERPENDICULAR</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_TANGENT</ActionID>
         </Output>
       </Button>
     </Menu>
     <Menu Type="Radial">
-      <Name>RadialMenuSketch01</Name>
-      <ID>MenuRM9</ID>
+      <Name>Sketch 1</Name>
+      <ID>MenuRM_37b02048-9771-4f8a-bb0b-3110922b85df</ID>
       <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
       <Button>
         <Input>
           <ActionID>MenuButton_1</ActionID>
@@ -631,7 +731,7 @@
           <ActionID>MenuButton_3</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_CIRCLE_CENTER_RADIUS</ActionID>
+          <ActionID>AppCommand_RECTANGLE_TWO_CORNERS</ActionID>
         </Output>
       </Button>
       <Button>
@@ -639,20 +739,53 @@
           <ActionID>MenuButton_4</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_RECTANGLE_TWO_CORNERS</ActionID>
+          <ActionID>AppCommand_CIRCLE_CENTER_RADIUS</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_ARC_START_END_RADIUS</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_ARC_TANGENT</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_POINT</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_TOGGLE_CONSTRUCTION</ActionID>
         </Output>
       </Button>
     </Menu>
     <Menu Type="Radial">
-      <Name>RadialMenuSketch02</Name>
-      <ID>MenuRM10</ID>
+      <Name>Sketch 2</Name>
+      <ID>MenuRM_1ac79fc2-b324-42b7-90c2-38ba64adecc8</ID>
       <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
       <Button>
         <Input>
           <ActionID>MenuButton_1</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_COINCIDENT</ActionID>
+          <ActionID>AppCommand_DIMENSION</ActionID>
         </Output>
       </Button>
       <Button>
@@ -668,118 +801,7 @@
           <ActionID>MenuButton_3</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_TOGGLE_CONSTRUCTION</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_4</ActionID>
-        </Input>
-        <Output>
           <ActionID>AppCommand_revolve</ActionID>
-        </Output>
-      </Button>
-    </Menu>
-    <Menu Type="Radial">
-      <Name>RadialMenuSketch03</Name>
-      <ID>MenuRM11</ID>
-      <GesturesEnabled>true</GesturesEnabled>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_1</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_VERTICAL</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_2</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_HORIZONTAL</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_3</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_MIDPOINT</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_4</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_EQUAL</ActionID>
-        </Output>
-      </Button>
-    </Menu>
-    <Menu Type="Radial">
-      <Name>RadialMenuSketch06</Name>
-      <ID>MenuRM12</ID>
-      <GesturesEnabled>true</GesturesEnabled>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_1</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_ARC_START_END_RADIUS</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_2</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_POINT</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_3</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_SPLINE</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_4</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_TEXT_RECTANGLE_TWO_CORNERS</ActionID>
-        </Output>
-      </Button>
-    </Menu>
-    <Menu Type="Radial">
-      <Name>RadialMenuSketch04</Name>
-      <ID>MenuRM13</ID>
-      <GesturesEnabled>true</GesturesEnabled>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_1</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_FILLET</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_2</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_OFFSET</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_3</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_SLOT</ActionID>
         </Output>
       </Button>
       <Button>
@@ -790,122 +812,44 @@
           <ActionID>AppCommand_USE</ActionID>
         </Output>
       </Button>
-    </Menu>
-    <Menu Type="Radial">
-      <Name>RadialMenuSketch08</Name>
-      <ID>MenuRM14</ID>
-      <GesturesEnabled>true</GesturesEnabled>
       <Button>
         <Input>
-          <ActionID>MenuButton_1</ActionID>
+          <ActionID>MenuButton_5</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_TANGENT</ActionID>
+          <ActionID>AppCommand_OFFSET</ActionID>
         </Output>
       </Button>
       <Button>
         <Input>
-          <ActionID>MenuButton_2</ActionID>
+          <ActionID>MenuButton_6</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_PERPENDICULAR</ActionID>
+          <ActionID>AppCommand_SLOT</ActionID>
         </Output>
       </Button>
       <Button>
         <Input>
-          <ActionID>MenuButton_3</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_CONCENTRIC</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_4</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_PARALLEL</ActionID>
-        </Output>
-      </Button>
-    </Menu>
-    <Menu Type="Radial">
-      <Name>RadialMenuSketch07</Name>
-      <ID>MenuRM15</ID>
-      <GesturesEnabled>true</GesturesEnabled>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_1</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_SKETCHLPATTERN</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_2</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_SKETCHMIRROR</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_3</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_SKETCHCPATTERN</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_4</ActionID>
+          <ActionID>MenuButton_7</ActionID>
         </Input>
         <Output>
           <ActionID>AppCommand_TRANSFORM</ActionID>
         </Output>
       </Button>
-    </Menu>
-    <Menu Type="Radial">
-      <Name>RadialMenuSketch09</Name>
-      <ID>MenuRM16</ID>
-      <GesturesEnabled>true</GesturesEnabled>
       <Button>
         <Input>
-          <ActionID>MenuButton_1</ActionID>
+          <ActionID>MenuButton_8</ActionID>
         </Input>
         <Output>
           <ActionID>AppCommand_TRIM</ActionID>
         </Output>
       </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_2</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_INTERSECTION</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_3</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_EXTEND</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_4</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_SPLIT</ActionID>
-        </Output>
-      </Button>
     </Menu>
     <Menu Type="Radial">
-      <Name>RadialMenuPartStudio01</Name>
-      <ID>MenuRM17</ID>
+      <Name>Part Studio 1</Name>
+      <ID>MenuRM_e71a3f14-ad95-447d-98aa-8eeaba0be489</ID>
       <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
       <Button>
         <Input>
           <ActionID>MenuButton_1</ActionID>
@@ -919,7 +863,7 @@
           <ActionID>MenuButton_2</ActionID>
         </Input>
         <Output>
-          <ActionID>sS+N+R</ActionID>
+          <ActionID>sS+N+C</ActionID>
         </Output>
       </Button>
       <Button>
@@ -927,7 +871,7 @@
           <ActionID>MenuButton_3</ActionID>
         </Input>
         <Output>
-          <ActionID>sS+N+C</ActionID>
+          <ActionID>sS+N+R</ActionID>
         </Output>
       </Button>
       <Button>
@@ -938,22 +882,9 @@
           <ActionID>sS+N+G</ActionID>
         </Output>
       </Button>
-    </Menu>
-    <Menu Type="Radial">
-      <Name>RadialMenuPartStudio02</Name>
-      <ID>MenuRM18</ID>
-      <GesturesEnabled>true</GesturesEnabled>
       <Button>
         <Input>
-          <ActionID>MenuButton_1</ActionID>
-        </Input>
-        <Output>
-          <ActionID>MAYUSCULAS+F</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_2</ActionID>
+          <ActionID>MenuButton_5</ActionID>
         </Input>
         <Output>
           <ActionID>AppCommand_extrude</ActionID>
@@ -961,99 +892,34 @@
       </Button>
       <Button>
         <Input>
-          <ActionID>MenuButton_3</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_chamfer</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_4</ActionID>
+          <ActionID>MenuButton_6</ActionID>
         </Input>
         <Output>
           <ActionID>AppCommand_revolve</ActionID>
         </Output>
       </Button>
-    </Menu>
-    <Menu Type="Radial">
-      <Name>RadialMenuPartStudio09</Name>
-      <ID>MenuRM19</ID>
-      <GesturesEnabled>true</GesturesEnabled>
       <Button>
         <Input>
-          <ActionID>MenuButton_1</ActionID>
+          <ActionID>MenuButton_7</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_sheetMetalCorner</ActionID>
+          <ActionID>AppCommand_fillet</ActionID>
         </Output>
       </Button>
       <Button>
         <Input>
-          <ActionID>MenuButton_2</ActionID>
+          <ActionID>MenuButton_8</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_sheetMetalBendRelief</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_3</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_sheetMetalEnd</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_4</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_sheetMetalMakeJoint</ActionID>
+          <ActionID>AppCommand_chamfer</ActionID>
         </Output>
       </Button>
     </Menu>
     <Menu Type="Radial">
-      <Name>RadialMenuPartStudio04</Name>
-      <ID>MenuRM20</ID>
+      <Name>Part Studio 2</Name>
+      <ID>MenuRM_afd55f81-9e9e-447b-ae60-c72ad258d4a3</ID>
       <GesturesEnabled>true</GesturesEnabled>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_1</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_sheetMetalStart</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_2</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_hole</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_3</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_sheetMetalFlange</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_4</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_moveFace</ActionID>
-        </Output>
-      </Button>
-    </Menu>
-    <Menu Type="Radial">
-      <Name>RadialMenuPartStudio07</Name>
-      <ID>MenuRM21</ID>
-      <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
       <Button>
         <Input>
           <ActionID>MenuButton_1</ActionID>
@@ -1067,7 +933,7 @@
           <ActionID>MenuButton_2</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_mirror</ActionID>
+          <ActionID>AppCommand_circularPattern</ActionID>
         </Output>
       </Button>
       <Button>
@@ -1075,7 +941,7 @@
           <ActionID>MenuButton_3</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_circularPattern</ActionID>
+          <ActionID>AppCommand_mirror</ActionID>
         </Output>
       </Button>
       <Button>
@@ -1083,25 +949,20 @@
           <ActionID>MenuButton_4</ActionID>
         </Input>
         <Output>
+          <ActionID>AppCommand_hole</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
           <ActionID>AppCommand_transform</ActionID>
         </Output>
       </Button>
-    </Menu>
-    <Menu Type="Radial">
-      <Name>RadialMenuPartStudio03</Name>
-      <ID>MenuRM22</ID>
-      <GesturesEnabled>true</GesturesEnabled>
       <Button>
         <Input>
-          <ActionID>MenuButton_1</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_sweep</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_2</ActionID>
+          <ActionID>MenuButton_6</ActionID>
         </Input>
         <Output>
           <ActionID>AppCommand_thicken</ActionID>
@@ -1109,15 +970,15 @@
       </Button>
       <Button>
         <Input>
-          <ActionID>MenuButton_3</ActionID>
+          <ActionID>MenuButton_7</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_loft</ActionID>
+          <ActionID>AppCommand_draft</ActionID>
         </Output>
       </Button>
       <Button>
         <Input>
-          <ActionID>MenuButton_4</ActionID>
+          <ActionID>MenuButton_8</ActionID>
         </Input>
         <Output>
           <ActionID>AppCommand_shell</ActionID>
@@ -1125,15 +986,16 @@
       </Button>
     </Menu>
     <Menu Type="Radial">
-      <Name>RadialMenuPartStudio06</Name>
-      <ID>MenuRM23</ID>
+      <Name>Part Studio 3</Name>
+      <ID>MenuRM_aab4407a-a780-41d6-8871-1502a542e8ab</ID>
       <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
       <Button>
         <Input>
           <ActionID>MenuButton_1</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_cPlane</ActionID>
+          <ActionID>AppCommand_sheetMetalStart</ActionID>
         </Output>
       </Button>
       <Button>
@@ -1141,7 +1003,7 @@
           <ActionID>MenuButton_2</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_booleanBodies</ActionID>
+          <ActionID>AppCommand_sheetMetalFlange</ActionID>
         </Output>
       </Button>
       <Button>
@@ -1149,70 +1011,12 @@
           <ActionID>MenuButton_3</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_mateConnector</ActionID>
+          <ActionID>AppCommand_sheetMetalTab</ActionID>
         </Output>
       </Button>
       <Button>
         <Input>
           <ActionID>MenuButton_4</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_draft</ActionID>
-        </Output>
-      </Button>
-    </Menu>
-    <Menu Type="Radial">
-      <Name>RadialMenuPartStudio10</Name>
-      <ID>MenuRM24</ID>
-      <GesturesEnabled>true</GesturesEnabled>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_1</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_fill</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_2</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_rib</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_3</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_enclose</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_4</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_splitPart</ActionID>
-        </Output>
-      </Button>
-    </Menu>
-    <Menu Type="Radial">
-      <Name>RadialMenuPartStudio08</Name>
-      <ID>MenuRM25</ID>
-      <GesturesEnabled>true</GesturesEnabled>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_1</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_helix</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_2</ActionID>
         </Input>
         <Output>
           <ActionID>AppCommand_deleteFace</ActionID>
@@ -1220,25 +1024,42 @@
       </Button>
       <Button>
         <Input>
-          <ActionID>MenuButton_3</ActionID>
+          <ActionID>MenuButton_5</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_offsetSurface</ActionID>
+          <ActionID>AppCommand_moveFace</ActionID>
         </Output>
       </Button>
       <Button>
         <Input>
-          <ActionID>MenuButton_4</ActionID>
+          <ActionID>MenuButton_6</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_replaceFace</ActionID>
+          <ActionID>AppCommand_booleanBodies</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_cPlane</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_helix</ActionID>
         </Output>
       </Button>
     </Menu>
     <Menu Type="Radial">
-      <Name>RadialMenuAssembly01</Name>
-      <ID>MenuRM26</ID>
+      <Name>Assembly 1</Name>
+      <ID>MenuRM_a81441f6-4ed4-4137-ae35-d28bfdafad20</ID>
       <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
       <Button>
         <Input>
           <ActionID>MenuButton_1</ActionID>
@@ -1252,7 +1073,7 @@
           <ActionID>MenuButton_2</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_TOGGLE_ASSEMBLY_SNAP_MODE</ActionID>
+          <ActionID>AppCommand_mate_FASTENED</ActionID>
         </Output>
       </Button>
       <Button>
@@ -1260,7 +1081,7 @@
           <ActionID>MenuButton_3</ActionID>
         </Input>
         <Output>
-          <ActionID>Macro_Onshape_Mate</ActionID>
+          <ActionID>AppCommand_mateGroup_undefined</ActionID>
         </Output>
       </Button>
       <Button>
@@ -1268,14 +1089,47 @@
           <ActionID>MenuButton_4</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_mateConnector</ActionID>
+          <ActionID>AppCommand_geometryMate_TANGENT</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_mateRelation_GEAR</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_replicate</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_assemblyLinearPattern</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_assemblyCircularPattern</ActionID>
         </Output>
       </Button>
     </Menu>
     <Menu Type="Radial">
-      <Name>RadialMenuAssembly02</Name>
-      <ID>MenuRM27</ID>
+      <Name>Assembly Mates</Name>
+      <ID>MenuRM_4019d2e3-88b7-4aea-93f3-d15118921e8c</ID>
       <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
       <Button>
         <Input>
           <ActionID>MenuButton_1</ActionID>
@@ -1289,67 +1143,63 @@
           <ActionID>MenuButton_2</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_mate_SLIDER</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_3</ActionID>
-        </Input>
-        <Output>
           <ActionID>AppCommand_mate_REVOLUTE</ActionID>
         </Output>
       </Button>
       <Button>
         <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_mate_SLIDER</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
           <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_mate_PLANAR</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
         </Input>
         <Output>
           <ActionID>AppCommand_mate_CYLINDRICAL</ActionID>
         </Output>
       </Button>
-    </Menu>
-    <Menu Type="Radial">
-      <Name>RadialMenuAssembly03</Name>
-      <ID>MenuRM28</ID>
-      <GesturesEnabled>true</GesturesEnabled>
       <Button>
         <Input>
-          <ActionID>MenuButton_1</ActionID>
+          <ActionID>MenuButton_6</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_assemblyLinearPattern</ActionID>
+          <ActionID>AppCommand_mate_PIN_SLOT</ActionID>
         </Output>
       </Button>
       <Button>
         <Input>
-          <ActionID>MenuButton_2</ActionID>
+          <ActionID>MenuButton_7</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_mateGroup_undefined</ActionID>
+          <ActionID>AppCommand_mate_BALL</ActionID>
         </Output>
       </Button>
       <Button>
         <Input>
-          <ActionID>MenuButton_3</ActionID>
+          <ActionID>MenuButton_8</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_assemblyCircularPattern</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_4</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_replicate</ActionID>
+          <ActionID>AppCommand_mate_PARALLEL</ActionID>
         </Output>
       </Button>
     </Menu>
     <Menu Type="Radial">
-      <Name>RadialMenuAssembly04</Name>
-      <ID>MenuRM29</ID>
+      <Name>Assembly 2</Name>
+      <ID>MenuRM_d9cb04ee-cca3-4f4c-8cb2-8309e3d8151a</ID>
       <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
       <Button>
         <Input>
           <ActionID>MenuButton_1</ActionID>
@@ -1363,112 +1213,60 @@
           <ActionID>MenuButton_2</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_mateRelation_LINEAR</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_3</ActionID>
-        </Input>
-        <Output>
           <ActionID>AppCommand_mateRelation_RACK_AND_PINION</ActionID>
         </Output>
       </Button>
       <Button>
         <Input>
-          <ActionID>MenuButton_4</ActionID>
+          <ActionID>MenuButton_3</ActionID>
         </Input>
         <Output>
           <ActionID>AppCommand_mateRelation_SCREW</ActionID>
         </Output>
       </Button>
-    </Menu>
-    <Menu Type="Radial">
-      <Name>RadialMenuAssembly06</Name>
-      <ID>MenuRM30</ID>
-      <GesturesEnabled>true</GesturesEnabled>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_1</ActionID>
-        </Input>
-        <Output>
-          <ActionID>Macro_Onshape_Flip_alignment</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_2</ActionID>
-        </Input>
-        <Output>
-          <ActionID>J</ActionID>
-        </Output>
-      </Button>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_3</ActionID>
-        </Input>
-        <Output>
-          <ActionID>Q</ActionID>
-        </Output>
-      </Button>
       <Button>
         <Input>
           <ActionID>MenuButton_4</ActionID>
         </Input>
         <Output>
-          <ActionID>K</ActionID>
-        </Output>
-      </Button>
-    </Menu>
-    <Menu Type="Radial">
-      <Name>RadialMenuAssembly07</Name>
-      <ID>MenuRM31</ID>
-      <GesturesEnabled>true</GesturesEnabled>
-      <Button>
-        <Input>
-          <ActionID>MenuButton_1</ActionID>
-        </Input>
-        <Output>
-          <ActionID>AppCommand_mate_PLANAR</ActionID>
+          <ActionID>AppCommand_mateRelation_LINEAR</ActionID>
         </Output>
       </Button>
       <Button>
         <Input>
-          <ActionID>MenuButton_2</ActionID>
+          <ActionID>MenuButton_5</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_mate_PIN_SLOT</ActionID>
+          <ActionID>AppCommand_TOGGLE_ASSEMBLY_SNAP_MODE</ActionID>
         </Output>
       </Button>
       <Button>
         <Input>
-          <ActionID>MenuButton_3</ActionID>
+          <ActionID>MenuButton_6</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_mate_PARALLEL</ActionID>
+          <ActionID>AppCommand_assemblyNamedPositions</ActionID>
         </Output>
       </Button>
       <Button>
         <Input>
-          <ActionID>MenuButton_4</ActionID>
+          <ActionID>MenuButton_7</ActionID>
         </Input>
         <Output>
-          <ActionID>AppCommand_mate_BALL</ActionID>
+          <ActionID>AppCommand_createInContextPartStudio</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>AppCommand_mateConnector</ActionID>
         </Output>
       </Button>
     </Menu>
   </Menus>
   <ButtonActions>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM8</ID>
-      <Name>CADMouse-RadialMenu</Name>
-      <MenuID>MenuRM8</MenuID>
-    </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM9</ID>
-      <Name>RadialMenuSketch01</Name>
-      <MenuID>MenuRM9</MenuID>
-    </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_LINESEGMENT</ID>
       <Name>Line</Name>
@@ -1488,11 +1286,6 @@
       <ID>AppCommand_RECTANGLE_TWO_CORNERS</ID>
       <Name>Corner rectangle</Name>
       <AppCmdID>RECTANGLE_TWO_CORNERS</AppCmdID>
-    </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM10</ID>
-      <Name>RadialMenuSketch02</Name>
-      <MenuID>MenuRM10</MenuID>
     </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_DIMENSION</ID>
@@ -1514,11 +1307,6 @@
       <Name>Revolve</Name>
       <AppCmdID>revolve</AppCmdID>
     </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM11</ID>
-      <Name>RadialMenuSketch03</Name>
-      <MenuID>MenuRM11</MenuID>
-    </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_VERTICAL</ID>
       <Name>Vertical</Name>
@@ -1538,11 +1326,6 @@
       <ID>AppCommand_EQUAL</ID>
       <Name>Equal</Name>
       <AppCmdID>EQUAL</AppCmdID>
-    </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM12</ID>
-      <Name>RadialMenuSketch06</Name>
-      <MenuID>MenuRM12</MenuID>
     </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_ARC_START_END_RADIUS</ID>
@@ -1564,11 +1347,6 @@
       <Name>Text</Name>
       <AppCmdID>TEXT_RECTANGLE_TWO_CORNERS</AppCmdID>
     </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM13</ID>
-      <Name>RadialMenuSketch04</Name>
-      <MenuID>MenuRM13</MenuID>
-    </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_FILLET</ID>
       <Name>Fillet</Name>
@@ -1583,16 +1361,6 @@
       <ID>AppCommand_SLOT</ID>
       <Name>Slot</Name>
       <AppCmdID>SLOT</AppCmdID>
-    </ButtonAction>
-    <ButtonAction Type="AppCommand">
-      <ID>AppCommand_USE</ID>
-      <Name>Use</Name>
-      <AppCmdID>USE</AppCmdID>
-    </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM14</ID>
-      <Name>RadialMenuSketch08</Name>
-      <MenuID>MenuRM14</MenuID>
     </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_TANGENT</ID>
@@ -1614,11 +1382,6 @@
       <Name>Parallel</Name>
       <AppCmdID>PARALLEL</AppCmdID>
     </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM15</ID>
-      <Name>RadialMenuSketch07</Name>
-      <MenuID>MenuRM15</MenuID>
-    </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_SKETCHLPATTERN</ID>
       <Name>Linear pattern</Name>
@@ -1638,11 +1401,6 @@
       <ID>AppCommand_TRANSFORM</ID>
       <Name>Transform</Name>
       <AppCmdID>TRANSFORM</AppCmdID>
-    </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM16</ID>
-      <Name>RadialMenuSketch09</Name>
-      <MenuID>MenuRM16</MenuID>
     </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_TRIM</ID>
@@ -1669,26 +1427,6 @@
       <Name>Coincident</Name>
       <AppCmdID>COINCIDENT</AppCmdID>
     </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM17</ID>
-      <Name>RadialMenuPartStudio01</Name>
-      <MenuID>MenuRM17</MenuID>
-    </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM18</ID>
-      <Name>RadialMenuPartStudio02</Name>
-      <MenuID>MenuRM18</MenuID>
-    </ButtonAction>
-    <ButtonAction Type="AppCommand">
-      <ID>AppCommand_chamfer</ID>
-      <Name>Chamfer</Name>
-      <AppCmdID>chamfer</AppCmdID>
-    </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM19</ID>
-      <Name>RadialMenuPartStudio09</Name>
-      <MenuID>MenuRM19</MenuID>
-    </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_sheetMetalCorner</ID>
       <Name>Corner</Name>
@@ -1708,11 +1446,6 @@
       <ID>AppCommand_sheetMetalMakeJoint</ID>
       <Name>Make joint</Name>
       <AppCmdID>sheetMetalMakeJoint</AppCmdID>
-    </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM20</ID>
-      <Name>RadialMenuPartStudio04</Name>
-      <MenuID>MenuRM20</MenuID>
     </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_sheetMetalStart</ID>
@@ -1734,11 +1467,6 @@
       <Name>Move face</Name>
       <AppCmdID>moveFace</AppCmdID>
     </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM21</ID>
-      <Name>RadialMenuPartStudio07</Name>
-      <MenuID>MenuRM21</MenuID>
-    </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_linearPattern</ID>
       <Name>Linear pattern</Name>
@@ -1758,11 +1486,6 @@
       <ID>AppCommand_transform</ID>
       <Name>Transform</Name>
       <AppCmdID>transform</AppCmdID>
-    </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM22</ID>
-      <Name>RadialMenuPartStudio03</Name>
-      <MenuID>MenuRM22</MenuID>
     </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_sweep</ID>
@@ -1784,20 +1507,10 @@
       <Name>Shell</Name>
       <AppCmdID>shell</AppCmdID>
     </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM23</ID>
-      <Name>RadialMenuPartStudio06</Name>
-      <MenuID>MenuRM23</MenuID>
-    </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_cPlane</ID>
       <Name>Plane</Name>
       <AppCmdID>cPlane</AppCmdID>
-    </ButtonAction>
-    <ButtonAction Type="AppCommand">
-      <ID>AppCommand_booleanBodies</ID>
-      <Name>Boolean</Name>
-      <AppCmdID>booleanBodies</AppCmdID>
     </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_mateConnector</ID>
@@ -1808,16 +1521,6 @@
       <ID>AppCommand_draft</ID>
       <Name>Draft</Name>
       <AppCmdID>draft</AppCmdID>
-    </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM24</ID>
-      <Name>RadialMenuPartStudio10</Name>
-      <MenuID>MenuRM24</MenuID>
-    </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM25</ID>
-      <Name>RadialMenuPartStudio08</Name>
-      <MenuID>MenuRM25</MenuID>
     </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_helix</ID>
@@ -1859,11 +1562,6 @@
       <Name>Split</Name>
       <AppCmdID>splitPart</AppCmdID>
     </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM26</ID>
-      <Name>RadialMenuAssembly01</Name>
-      <MenuID>MenuRM26</MenuID>
-    </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_insertPartOrAssembly</ID>
       <Name>Insert</Name>
@@ -1873,11 +1571,6 @@
       <ID>AppCommand_TOGGLE_ASSEMBLY_SNAP_MODE</ID>
       <Name>Snap mode</Name>
       <AppCmdID>TOGGLE_ASSEMBLY_SNAP_MODE</AppCmdID>
-    </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM27</ID>
-      <Name>RadialMenuAssembly02</Name>
-      <MenuID>MenuRM27</MenuID>
     </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_mate_FASTENED</ID>
@@ -1899,11 +1592,6 @@
       <Name>Cylindrical mate</Name>
       <AppCmdID>mate_CYLINDRICAL</AppCmdID>
     </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM28</ID>
-      <Name>RadialMenuAssembly03</Name>
-      <MenuID>MenuRM28</MenuID>
-    </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_assemblyLinearPattern</ID>
       <Name>Assembly linear pattern</Name>
@@ -1924,11 +1612,6 @@
       <Name>Replicate</Name>
       <AppCmdID>replicate</AppCmdID>
     </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM29</ID>
-      <Name>RadialMenuAssembly04</Name>
-      <MenuID>MenuRM29</MenuID>
-    </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_mateRelation_GEAR</ID>
       <Name>Gear relation</Name>
@@ -1948,16 +1631,6 @@
       <ID>AppCommand_mateRelation_SCREW</ID>
       <Name>Screw relation</Name>
       <AppCmdID>mateRelation_SCREW</AppCmdID>
-    </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM30</ID>
-      <Name>RadialMenuAssembly06</Name>
-      <MenuID>MenuRM30</MenuID>
-    </ButtonAction>
-    <ButtonAction Type="Menu">
-      <ID>RadialMenu_MenuRM31</ID>
-      <Name>RadialMenuAssembly07</Name>
-      <MenuID>MenuRM31</MenuID>
     </ButtonAction>
     <ButtonAction Type="AppCommand">
       <ID>AppCommand_mate_PLANAR</ID>
@@ -1994,5 +1667,104 @@
       <Name>Create Part Studio in context</Name>
       <AppCmdID>createInContextPartStudio</AppCmdID>
     </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_CIRCLE_PERIMETER</ID>
+      <Name>3 point circle</Name>
+      <AppCmdID>CIRCLE_PERIMETER</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_CENTER_ARC</ID>
+      <Name>Center point arc</Name>
+      <AppCmdID>CENTER_ARC</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_CIRCUMSCRIBED_POLYGON</ID>
+      <Name>Circumscribed polygon</Name>
+      <AppCmdID>CIRCUMSCRIBED_POLYGON</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_2e0e8a00-c800-44b4-b617-ae064266e1c1</ID>
+      <Name>Sketch Constraints</Name>
+      <MenuID>MenuRM_2e0e8a00-c800-44b4-b617-ae064266e1c1</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_37b02048-9771-4f8a-bb0b-3110922b85df</ID>
+      <Name>Sketch 1</Name>
+      <MenuID>MenuRM_37b02048-9771-4f8a-bb0b-3110922b85df</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_ARC_TANGENT</ID>
+      <Name>Tangent arc</Name>
+      <AppCmdID>ARC_TANGENT</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_1ac79fc2-b324-42b7-90c2-38ba64adecc8</ID>
+      <Name>Sketch 2</Name>
+      <MenuID>MenuRM_1ac79fc2-b324-42b7-90c2-38ba64adecc8</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_USE</ID>
+      <Name>Use</Name>
+      <AppCmdID>USE</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_e71a3f14-ad95-447d-98aa-8eeaba0be489</ID>
+      <Name>Part Studio 1</Name>
+      <MenuID>MenuRM_e71a3f14-ad95-447d-98aa-8eeaba0be489</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_afd55f81-9e9e-447b-ae60-c72ad258d4a3</ID>
+      <Name>Part Studio 2</Name>
+      <MenuID>MenuRM_afd55f81-9e9e-447b-ae60-c72ad258d4a3</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_fillet</ID>
+      <Name>Fillet</Name>
+      <AppCmdID>fillet</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_chamfer</ID>
+      <Name>Chamfer</Name>
+      <AppCmdID>chamfer</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_aab4407a-a780-41d6-8871-1502a542e8ab</ID>
+      <Name>Part Studio 3</Name>
+      <MenuID>MenuRM_aab4407a-a780-41d6-8871-1502a542e8ab</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_sheetMetalTab</ID>
+      <Name>Tab</Name>
+      <AppCmdID>sheetMetalTab</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="AppCommand">
+      <ID>AppCommand_booleanBodies</ID>
+      <Name>Boolean</Name>
+      <AppCmdID>booleanBodies</AppCmdID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_a81441f6-4ed4-4137-ae35-d28bfdafad20</ID>
+      <Name>Assembly 1</Name>
+      <MenuID>MenuRM_a81441f6-4ed4-4137-ae35-d28bfdafad20</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_4019d2e3-88b7-4aea-93f3-d15118921e8c</ID>
+      <Name>Assembly Mates</Name>
+      <MenuID>MenuRM_4019d2e3-88b7-4aea-93f3-d15118921e8c</MenuID>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_d9cb04ee-cca3-4f4c-8cb2-8309e3d8151a</ID>
+      <Name>Assembly 2</Name>
+      <MenuID>MenuRM_d9cb04ee-cca3-4f4c-8cb2-8309e3d8151a</MenuID>
+    </ButtonAction>
   </ButtonActions>
+  <AuthorInfo>
+    <DriverVersion>17.5.6.14829</DriverVersion>
+    <LastChange>
+      <Tool>3DxService.exe</Tool>
+      <Version>17.5.6.14829</Version>
+      <Date>2018:5:2:15:22:12:52:684</Date>
+      <User>emagdalenaC2i</User>
+    </LastChange>
+  </AuthorInfo>
 </AppCfg>
